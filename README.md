@@ -7,9 +7,8 @@
 
 ## Installation
 
-1
-git clone https://github.com/yourusername/project-3.git
-cd project-3
+1.
+cd project2
 ```
 
 2. Install server dependencies
