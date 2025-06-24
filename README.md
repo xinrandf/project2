@@ -1,26 +1,13 @@
-# BookByte
 
-BookByte is an innovative platform that allows users to search for books and digitize them into PDF format. The platform provides a seamless experience for finding books and getting them scanned professionally.
-
-## Features
-
-- Book search using Google Books API
-- Professional book scanning service
-- Multiple pricing plans
-- User authentication
-- Responsive design
 
 ## Tech Stack
-
-- Frontend: React.js, Material-UI
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: JWT
 
 ## Installation
 
-1. Clone the repository
-```bash
+1
 git clone https://github.com/yourusername/project-3.git
 cd project-3
 ```
@@ -58,19 +45,3 @@ npm start
 cd client
 npm start
 ```
-
-## Usage
-
-1. Register for an account or log in
-2. Search for books using the search bar
-3. View book details and scanning cost
-4. Choose a pricing plan
-5. Place an order for scanning
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/) 
