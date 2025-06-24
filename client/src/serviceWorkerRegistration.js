@@ -1,11 +1,11 @@
-// 개발 환경인지 확인
+
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     window.location.hostname === '[::1]' ||
     window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/)
 );
 
-// 서비스 워커 등록 함수
+// This optional code is used to register a service worker.
 export function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
@@ -17,17 +17,17 @@ export function register() {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
-        // 로컬호스트에서 실행 중인 경우
+        
         checkValidServiceWorker(swUrl);
       } else {
-        // 프로덕션 환경에서 실행 중인 경우
+        
         registerValidSW(swUrl);
       }
     });
   }
 }
 
-// 서비스 워커 등록
+
 function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
@@ -53,7 +53,7 @@ function registerValidSW(swUrl) {
     });
 }
 
-// 서비스 워커 유효성 검사
+
 function checkValidServiceWorker(swUrl) {
   fetch(swUrl, {
     headers: { 'Service-Worker': 'script' },
@@ -78,7 +78,7 @@ function checkValidServiceWorker(swUrl) {
     });
 }
 
-// 서비스 워커 등록 해제
+
 export function unregister() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready
