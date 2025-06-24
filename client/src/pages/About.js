@@ -60,7 +60,7 @@ const About = () => {
               Our Mission
             </Typography>
             <Typography variant="body1" paragraph>
-              PetPals is a full-stack web application designed to connect pet lovers, pet owners, and potential adopters through a responsive and interactive platform. The app will feature a blog space for users to share stories, tips, and photos of their pets, alongside a product-style catalog that lists pets available for adoption. 
+              PetPals is a web application designed to connect pet lovers, pet owners, and potential adopters through a responsive and interactive platform. The app will feature a blog space for users to share stories, tips, and photos of their pets, alongside a product-style catalog that lists pets available for adoption. 
 
 
             </Typography>

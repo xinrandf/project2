@@ -64,7 +64,7 @@ const Home = () => {
           <Grid item xs={12} sm={9}>
             <TextField
               fullWidth
-              label="Search for books"
+              label="Search for pets"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               variant="outlined"
